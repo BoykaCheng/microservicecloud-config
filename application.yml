@@ -12,6 +12,8 @@ spring:
     name: microservicecloud-config-neuedu-dev
     
 ---
+server:
+  port: 3356
 spring:
   profiles: test
   application:
